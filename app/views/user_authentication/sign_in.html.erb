@@ -22,10 +22,10 @@
   Or, <a href="/user_sign_up">Sign up</a> instead.
 </p>
 
-
+<%# 
 <p>
 <% if
 session.fetch(:user_id) > 0 %>
-  Or, <a href="/user_sign_out">Sign out</a> instead.
+  <%# Or, <a href="/user_sign_out">Sign out</a> instead.
   <% end %>
-</p>
+<%# </p> %>
